@@ -1,0 +1,44 @@
+html{
+	width: 1500xp;
+	margin: auto;
+	background-color:146F5D; }
+body{
+	background-color:24947E;
+	border: double 5px;
+	padding: 10px;
+	font-family: Times Roman }
+h3{
+	color:FFFFFF;
+	text-align: center;}
+h1{
+	color: D7D7D7;
+	text-align: center;}
+p{
+	color: 000000;
+	text-align: center;}
+.caption{
+	font-size: 3px;
+	font-varient: small-caps;}
+
+img{
+	border-radius: 8px;
+	border: solid 3px white;
+	padding: 7xp;
+	align: center; 
+	margins: auto;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	border-radius:25px; }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
